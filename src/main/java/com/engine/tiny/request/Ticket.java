@@ -21,6 +21,5 @@ class Ticket {
         this.clientURL = clientURL;
     }
 
-    public Ticket() {
-    }
+    public Ticket() { }
 }
