@@ -3,3 +3,8 @@ server:
 
 short:
   url: t.co/
+
+spring:
+  redis:
+    port: 6379
+    host: localhost
