@@ -1,4 +1,4 @@
-package com.engine.tiny.config;
+package com.engine.tiny.redis;
 
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;
@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Getter
 @Configuration
-public class RedisProperties {
+class RedisProperties {
     private int redisPort;
     private String redisHost;
 

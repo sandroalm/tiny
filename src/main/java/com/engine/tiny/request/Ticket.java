@@ -11,10 +11,13 @@ class Ticket {
 
     private String clientURL;
 
-    Ticket(String clientURL) {
-        this.clientURL = clientURL;
+    static Ticket of(Long id, String clientURL) {
+        return new Ticket(id, clientURL);
     }
 
-    public Ticket() {
+    private Ticket(Long id, String clientURL) {
+        this.clientURL = clientURL;
+        this.id = id;
     }
+
 }
